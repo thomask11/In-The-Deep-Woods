@@ -53,7 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Scripts\Player Movement.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\ScoreAndGameOver.cs" />
      <Compile Include="Assets\Scripts\Scrolling.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Thomas/Documents/GitHub/In-The-Deep-Woods/In the Deep Woods/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
