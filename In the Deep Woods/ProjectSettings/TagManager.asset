@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Lola
+    uniqueID: 2105781463
+    locked: 0
