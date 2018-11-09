@@ -17,7 +17,7 @@ public class Scrolling : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		x += Speed * Time.deltaTime;
-		Left.transform.position = new Vector2(-x%32,0);
-		Right.transform.position = new Vector2(-x%32+32,0);
+		Left.transform.position = new Vector2(-x%32,Left.transform.position.y);
+		Right.transform.position = new Vector2(-x%32+32,Right.transform.position.y);
 	}
 }
